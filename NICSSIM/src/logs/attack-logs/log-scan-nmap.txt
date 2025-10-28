@@ -1,0 +1,46 @@
+# Nmap 7.80 scan initiated Fri Oct 24 13:42:53 2025 as: nmap -p- -oN ./logs/attack-logs/log-scan-nmap.txt 192.168.0.1-255
+Nmap scan report for 192.168.0.1
+Host is up (0.0000020s latency).
+Not shown: 65533 closed ports
+PORT      STATE SERVICE
+111/tcp   open  rpcbind
+61635/tcp open  unknown
+MAC Address: D6:EE:50:44:D4:D2 (Unknown)
+
+Nmap scan report for plc1.icsnet (192.168.0.11)
+Host is up (0.0000020s latency).
+Not shown: 65534 closed ports
+PORT    STATE SERVICE
+502/tcp open  mbap
+MAC Address: AA:1B:36:00:98:D2 (Unknown)
+
+Nmap scan report for hmi1.icsnet (192.168.0.21)
+Host is up (0.0000020s latency).
+All 65535 scanned ports on hmi1.icsnet (192.168.0.21) are closed
+MAC Address: 5A:3C:04:B4:06:7F (Unknown)
+
+Nmap scan report for hmi2.icsnet (192.168.0.22)
+Host is up (0.0000030s latency).
+All 65535 scanned ports on hmi2.icsnet (192.168.0.22) are closed
+MAC Address: 4E:2D:71:C3:DB:1E (Unknown)
+
+Nmap scan report for hmi3.icsnet (192.168.0.23)
+Host is up (0.0000040s latency).
+All 65535 scanned ports on hmi3.icsnet (192.168.0.23) are closed
+MAC Address: 5A:A0:CC:3F:C0:B1 (Unknown)
+
+Nmap scan report for attackermachine.icsnet (192.168.0.41)
+Host is up (0.0000060s latency).
+All 65535 scanned ports on attackermachine.icsnet (192.168.0.41) are closed
+MAC Address: 2E:3F:3A:D6:E6:8E (Unknown)
+
+Nmap scan report for attackerremote.icsnet (192.168.0.43)
+Host is up (0.0000050s latency).
+All 65535 scanned ports on attackerremote.icsnet (192.168.0.43) are closed
+MAC Address: 3E:CA:4B:4C:9B:35 (Unknown)
+
+Nmap scan report for 1984b185f89d (192.168.0.42)
+Host is up (0.0000010s latency).
+All 65535 scanned ports on 1984b185f89d (192.168.0.42) are closed
+
+# Nmap done at Fri Oct 24 13:42:57 2025 -- 255 IP addresses (8 hosts up) scanned in 3.86 seconds
